@@ -18,7 +18,7 @@ window.onload = ()=>{
         square.classList.add('class','square');
         square.addEventListener("mouseover", function() {this.classList.add("hover");});
         square.addEventListener("mouseout", function() {this.classList.remove("hover");});
-        square.addEventListener("onclick", clickSquare());     
+        square.setAttribute("onclick", clickSquare());     
 }
 }
 
@@ -55,7 +55,7 @@ function displayWinMsg() {
         status.innerHTML = "Congratulations! X is the Winner!";
         status.classList.add("status", "you-won");
         for (let square of board.children) {
-            square.removeEventListener('onClick', clickSquare());
+            square.removeAttribute('onClick', clickSquare());
 
 
         }
@@ -64,7 +64,7 @@ function displayWinMsg() {
         status.innerHTML = "Congratulations! O is the Winner!";
         status.classList.add("status", "you-won");
         for (let square of board.children) {
-            square.removeEventListener('onClick', clickSquare());
+            square.removeAttribute('onClick', clickSquare());
 
 
         }
