@@ -55,7 +55,7 @@ function displayWinMsg() {
         status.innerHTML = "Congratulations! X is the Winner!";
         status.classList.add("status", "you-won");
         for (let square of board.children) {
-            square.removeAttribute('onClick', clickSquare());
+            square.removeAttribute("onClick");
 
 
         }
@@ -64,7 +64,7 @@ function displayWinMsg() {
         status.innerHTML = "Congratulations! O is the Winner!";
         status.classList.add("status", "you-won");
         for (let square of board.children) {
-            square.removeAttribute('onClick', clickSquare());
+            square.removeAttribute("onClick");
 
 
         }
