@@ -130,3 +130,7 @@ h1 span {
   border: 1px solid var(--lightBlue);
   cursor: pointer;
 }
+
+#extra {
+  display: none;
+}
