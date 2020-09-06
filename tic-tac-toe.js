@@ -25,7 +25,8 @@ window.onload = ()=>{
 
 
 function clickSquare(){
-     for (var square of board.children) {
+    let board = document.getElementById("board");
+     for (let square of board.children) {
          
         square.onclick = function(){
             // In this game, Player X always goes first
