@@ -30,12 +30,12 @@ function clickSquare(){
          
         square.onclick = function(){
             // In this game, Player X always goes first
-            if (tracking % 2 === 0 && square.innerHTML === "") {
+            if (tracking % 2 == 0 && square.innerHTML === "") {
                 square.innerHTML = "X";
                 square.classList.add("square", "X");
                 checkThrees();
                 tracking += 1;
-            } else if (tracking % 2 === 1 && square.innerHTML === "") {
+            } else if (tracking % 2 == 1 && square.innerHTML === "") {
                 square.innerHTML = "O";
                 square.classList.add("square", "O");
                 checkThrees();
