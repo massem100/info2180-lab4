@@ -3,7 +3,7 @@ var tracking = 0;
 window.onload = ()=>{
     
     // Select New Game Button, set clicker to restart game.
-    var n_Game = document.getElementsByClassName("btn")[0];
+    var n_Game = document.getElementsById("reset-btn")[0];
     n_Game.addEventListener("click", () => {
         window.location.reload(); 
     
