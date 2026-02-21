@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>INFO2180 - Tic-Tac-Toe - Lab 4</title>
     <link rel="stylesheet" href="tic-tac-toe.css" />
-    <script src="tic-tac-toe.js"></script>
+    <script src="tic-tac-toe-v2.js" defer></script>
   </head>
   <body>
     <h1>Tic <span>-Tac-</span> Toe</h1>
     <div id="game">
-      <div id="status">Move your mouse over a square and click to play an X or an O.</div>
+      <div id="status">
+        Move your mouse over a square and click to play an X or an O.
+      </div>
       <div id="board">
         <div></div>
         <div></div>
@@ -22,10 +24,10 @@
         <div></div>
         <div></div>
         <div></div>
-        <div id= "extra"></div>
+        <div id="extra"></div>
       </div>
       <div class="controls">
-        <button class="btn">New Game</button>
+        <button id="reset-btn">New Game</button>
       </div>
     </div>
   </body>
