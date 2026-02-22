@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# INFO2180 Lab 4 – Tic-Tac-Toe
 
-You can use the [editor on GitHub](https://github.com/massem100/info2180-lab4/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+A simple browser-based Tic-Tac-Toe game built using **TypeScript**, **HTML**, and **CSS**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🎮 Features
 
-### Markdown
+- 2-player game (X and O)
+- Automatic turn switching
+- Win detection
+- Draw detection
+- Game reset button
+- Dynamic status updates
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 🛠 Technologies Used
 
-```markdown
-Syntax highlighted code block
+- TypeScript
+- JavaScript (compiled from TypeScript)
+- HTML5
+- CSS3
+- Git
 
-# Header 1
-## Header 2
-### Header 3
+## 📂 Project Structure
 
-- Bulleted
-- List
+info2180-lab4/
+│
+├── tic-tac-toe.html
+├── tic-tac-toe.css
+├── tic-tac-toe-v2.ts
+├── tic-tac-toe-v2.js
+└── README.md
 
-1. Numbered
-2. List
+## 🚀 How to Run
 
-**Bold** and _Italic_ and `Code` text
+1. Compile TypeScript:
+   tsc tic-tac-toe-v2.ts
 
-[Link](url) and ![Image](src)
-```
+2. Open the HTML file in your browser:
+   tic-tac-toe.html
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 🔁 Resetting the Game
 
-### Jekyll Themes
+Click the **New Game** button to reset the board and start over.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/massem100/info2180-lab4/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 📌 Notes
 
-### Support or Contact
+- The game logic is separated from the rendering logic.
+- TypeScript is used for stronger type safety.
+- DOM manipulation is handled using event listeners.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+---
